@@ -1,6 +1,6 @@
 // Custom Variables
 // $primary: #c29938;
-// $light: #fbf5e5;
+// $light: #754ffe;
 
 // Import Functions & Variables
 @import "../../node_modules/bootstrap/scss/functions";
@@ -9,6 +9,7 @@
 $custom-theme-colors: (
   "dark-purple": #18113c,
   "light-purple": #754ffe,
+  "orange": #ffa745,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
