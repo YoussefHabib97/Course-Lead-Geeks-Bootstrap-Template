@@ -1,0 +1,51 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+:root {
+  font-family: Inter, sans-serif;
+}
+
+#logo {
+  filter: brightness(0) invert();
+}
+
+.navbar {
+  padding: 0.625rem 1rem;
+}
+
+.nav-link {
+  font-size: 14px;
+  padding: 0.3125rem 0.35rem;
+}
+
+.form-control {
+  margin: 0;
+  padding: 0;
+}
+
+#search-icon {
+  transform: translate(100%, -50%);
+}
+
+.ps-6 {
+  padding: 12px 20px 12px 40px;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .submenu {
+  display: none;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.dropdown-menu > li:hover > .submenu {
+  display: block;
+}
+
+.dropdown-menu > li:focus > .submenu {
+  display: block;
+}
