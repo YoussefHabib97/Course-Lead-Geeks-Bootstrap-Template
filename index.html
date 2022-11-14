@@ -520,6 +520,7 @@
       </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero bg-dark-purple text-light py-md-5 py-3">
       <div class="container">
         <div class="row">
@@ -559,7 +560,7 @@
           </div>
 
           <!-- Hero Form -->
-          <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="col-xl-6 col-lg-6 col-md-12 hero-form">
             <div class="card">
               <div class="card-body p-5">
                 <div class="mb-4">
@@ -571,34 +572,408 @@
                     class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between"
                   >
                     <!-- Google Button -->
-                    <a href="" class="btn btn-light mb-3 flex-fill me-3">
+                    <a href="" class="btn btn-light mb-3 me-3 w-100">
                       <span><i class="bi bi-google text-danger"></i></span>
                       <span>Google</span>
                     </a>
 
                     <!-- Twitter Button -->
-                    <a href="" class="btn btn-light mb-3 flex-fill me-3">
+                    <a href="" class="btn btn-light mb-3 me-3 w-100">
                       <span><i class="bi bi-twitter text-primary"></i></span>
                       <span>Twitter</span>
                     </a>
 
                     <!-- Facebook Button -->
-                    <a href="" class="btn btn-light mb-3 flex-fill">
+                    <a href="" class="btn btn-light mb-3 me-3 w-100">
                       <span><i class="bi bi-facebook text-primary"></i></span>
                       <span>Facebook</span>
                     </a>
                   </div>
+
+                  <!-- Horizontal Divider -->
+                  <div class="h-div text-black-50 mb-3">
+                    <span class="mx-2">OR</span>
+                  </div>
+
+                  <!-- Card Inputs -->
+                  <input
+                    type="search"
+                    class="form-control p-3 mb-3"
+                    placeholder="Email"
+                  />
+
+                  <input
+                    type="search"
+                    class="form-control p-3 mb-3"
+                    placeholder="Password"
+                  />
+
+                  <div class="d-grid">
+                    <button class="btn btn-light-purple fw-bold">
+                      Start Courses for Free
+                    </button>
+                  </div>
                 </div>
+              </div>
+              <div class="card-footer px-5 py-4">
+                <p class="text-black-50">
+                  By continuing you accept the
+                  <a href="#" class="text-dark-purple fw-semibold"
+                    >Terms of Use</a
+                  >,
+                  <a href="#" class="text-dark-purple fw-semibold"
+                    >Privacy Policy</a
+                  >, and
+                  <a href="#" class="text-dark-purple fw-semibold"
+                    >Data Policy</a
+                  >
+                </p>
+              </div>
+            </div>
+            <img src="images/dots-pattern.svg" alt="" class="dots-pattern" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-4 shadow-sm">
+      <div class="container">
+        <div class="row">
+          <!-- Item #1 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <span><i class="bi bi-check-circle-fill text-orange"></i></span>
+            <span class="fw-semibold text-dark-purple"
+              >Sharable Certificate</span
+            >
+          </div>
+
+          <!-- Item #2 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <span><i class="bi bi-check-circle-fill text-orange"></i></span>
+            <span class="fw-semibold text-dark-purple">Flexible Deadlines</span>
+          </div>
+
+          <!-- Item #3 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <span><i class="bi bi-check-circle-fill text-orange"></i></span>
+            <span class="fw-semibold text-dark-purple"
+              >100% Online Courses</span
+            >
+          </div>
+
+          <!-- Item #4 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <span><i class="bi bi-check-circle-fill text-orange"></i></span>
+            <span class="fw-semibold text-dark-purple">Approx. 24 hours</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="course-description py-4 bg-white-50">
+      <div class="container">
+        <!-- Title & Subtitle -->
+        <div class="row">
+          <div class="col-8-lg col-12 col-md-12 text-center">
+            <span class="text-light-purple text-uppercase fw-semibold"
+              >Course Description</span
+            >
+            <h2 class="mb-2 display-5 fw-bold text-dark-purple">
+              What will you learn?
+            </h2>
+            <p class="lead">
+              Vanilla JS is a fast, lightweight, cross-platform framework for
+              building incredible, powerful JavaScript applications.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cards & Modals -->
+        <div class="row">
+          <!-- Card #1 -->
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card mb-4">
+              <div class="card-body p-5">
+                <div class="d-md-flex mb-4">
+                  <div class="mb-3">
+                    <img
+                      src="images/feature-icon-1.svg"
+                      alt=""
+                      class="bg-light-purple rounded-circle"
+                    />
+                  </div>
+                  <div class="ms-md-4">
+                    <h2 class="fw-bold text-dark-purple fs-5">
+                      Introduction to JavaScript
+                      <span class="badge bg-orange">Free</span>
+                    </h2>
+                    <p class="fw-semibold font-size-6 fs-6 text-uppercase">
+                      <span>Courses - 1</span>
+                      <span class="ms-3 text-black-50">6 Lessons</span>
+                      <span class="ms-3 text-black-50">1 hour 12 min</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="mb-4">
+                  In et tempus dui, in porta dolor. Donec molestie a purus ut
+                  interdum. Donec quis felis dignissim, luctus libero ornare.
+                </p>
+
+                <!-- Modal Trigger -->
+                <a
+                  href=""
+                  class="btn-link btn-outline-light-purple fw-semibold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#coursesModal"
+                  >View Chapter Details +</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card #2 -->
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card mb-4">
+              <div class="card-body p-5">
+                <div class="d-md-flex mb-4">
+                  <div class="mb-3">
+                    <img
+                      src="images/feature-icon-2.svg"
+                      alt=""
+                      class="bg-light-purple rounded-circle"
+                    />
+                  </div>
+                  <div class="ms-md-4">
+                    <h2 class="fw-bold text-dark-purple fs-5">
+                      JavaScript beginning
+                    </h2>
+                    <p class="fw-semibold font-size-6 fs-6 text-uppercase">
+                      <span>Courses - 2</span>
+                      <span class="ms-3 text-black-50">4 Lessons</span>
+                      <span class="ms-3 text-black-50">32 min</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="mb-4">
+                  Malesuada fames ac turpis egesta mpor tempus tincidunt.
+                  Aliquam congue lacus ac tellus consectetur malesuada.
+                </p>
+                <!-- Modal Trigger -->
+                <a
+                  href=""
+                  class="btn-link btn-outline-light-purple fw-semibold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#coursesModal"
+                  >View Chapter Details +</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card #3 -->
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card mb-4">
+              <div class="card-body p-5">
+                <div class="d-md-flex mb-4">
+                  <div class="mb-3">
+                    <img
+                      src="images/feature-icon-3.svg"
+                      alt=""
+                      class="bg-light-purple rounded-circle"
+                    />
+                  </div>
+                  <div class="ms-md-4">
+                    <h2 class="fw-bold text-dark-purple fs-5">
+                      Variables and Constants
+                    </h2>
+                    <p class="fw-semibold font-size-6 fs-6 text-uppercase">
+                      <span>Courses - 3</span>
+                      <span class="ms-3 text-black-50">8 Lessons</span>
+                      <span class="ms-3 text-black-50">10 min</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="mb-4">
+                  Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare
+                  turpis vequet elit nec, imperdiet lectuna liquam qs.
+                </p>
+                <!-- Modal Trigger -->
+                <a
+                  href=""
+                  class="btn-link btn-outline-light-purple fw-semibold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#coursesModal"
+                  >View Chapter Details +</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card #4 -->
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="card mb-4">
+              <div class="card-body p-5">
+                <div class="d-md-flex mb-4">
+                  <div class="mb-3">
+                    <img
+                      src="images/feature-icon-1.svg"
+                      alt=""
+                      class="bg-light-purple rounded-circle"
+                    />
+                  </div>
+                  <div class="ms-md-4">
+                    <h2 class="fw-bold text-dark-purple fs-5">
+                      Types and Operators
+                    </h2>
+                    <p class="fw-semibold font-size-6 fs-6 text-uppercase">
+                      <span>Courses - 4</span>
+                      <span class="ms-3 text-black-50">10 Lessons</span>
+                      <span class="ms-3 text-black-50">32 min</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="mb-4">
+                  In lobortis quam eu augue spendisse imperdiet nec orci ipsum,
+                  tempus pharetra posuere imperdiet, lacinia a nisl.
+                </p>
+                <!-- Modal Trigger -->
+                <a
+                  href=""
+                  class="btn-link btn-outline-light-purple fw-semibold"
+                  data-bs-toggle="modal"
+                  data-bs-target="#coursesModal"
+                  >View Chapter Details +</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="coursesModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header py-4">
+                  <div class="d-lg-flex">
+                    <div class="mb-3 mb-lg-0">
+                      <img
+                        src="images/feature-icon-1.svg"
+                        alt=""
+                        class="rounded-circle bg-light-purple"
+                      />
+                    </div>
+                    <div class="ms-lg-4">
+                      <h2>
+                        Introduction to JavaScript
+                        <span class="badge bg-orange">Free</span>
+                      </h2>
+                      <p class="fw-semibold font-size-6 fs-6 text-uppercase">
+                        <span>Courses - 1</span>
+                        <span class="ms-3 text-black-50">6 Lessons</span>
+                        <span class="ms-3 text-black-50">1 hour 12 min</span>
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="fw-semibold">In this course you will learn:</h3>
+                  <p class="text-black-50 fs-4">
+                    Vanilla JS is a fast, lightweight, cross-platform framework
+                    for building incredible, powerful JavaScript applications.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flushed p-3">
+                  <li class="list-group-item">
+                    <a
+                      href="#"
+                      class="d-flex justify-content-between align-items-center text-decoration-none text-dark-purple"
+                    >
+                      <div class="text-truncate">
+                        <span>
+                          <i
+                            class="bi bi-play-circle-fill text-dark-purple rounded-circle"
+                          ></i>
+                        </span>
+                        <span>Introduction</span>
+                      </div>
+                      <div class="text-truncate">1m 7s</div>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a
+                      href="#"
+                      class="d-flex justify-content-between align-items-center text-decoration-none text-dark-purple"
+                    >
+                      <div class="text-truncate">
+                        <span>
+                          <i
+                            class="bi bi-play-circle-fill text-dark-purple rounded-circle"
+                          ></i>
+                        </span>
+                        <span>Installing Development Software</span>
+                      </div>
+                      <div class="text-truncate">3m 11s</div>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a
+                      href="#"
+                      class="d-flex justify-content-between align-items-center text-decoration-none text-dark-purple"
+                    >
+                      <div class="text-truncate">
+                        <span>
+                          <i
+                            class="bi bi-play-circle-fill text-dark-purple rounded-circle"
+                          ></i>
+                        </span>
+                        <span>Hello World Project from GitHub</span>
+                      </div>
+                      <div class="text-truncate">2m 33s</div>
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <a
+                      href="#"
+                      class="d-flex justify-content-between align-items-center text-decoration-none text-dark-purple"
+                    >
+                      <div class="text-truncate">
+                        <span>
+                          <i
+                            class="bi bi-play-circle-fill text-dark-purple rounded-circle"
+                          ></i>
+                        </span>
+                        <span>Our Sample JavaScript Files</span>
+                      </div>
+                      <div class="text-truncate">22m 30s</div>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- ***Gap*** -->
 
     <!-- Bootstrap -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <section class="instructor">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </section>
 
     <!-- App.js -->
     <script src="app/js/app.js"></script>
