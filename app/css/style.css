@@ -99,6 +99,17 @@ a {
   font-size: 0.75rem;
 }
 
+.testimonial-card {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  width: 5rem;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 75%);
+}
+
 @media (max-width: 768px) {
   .dots-pattern {
     display: none;
