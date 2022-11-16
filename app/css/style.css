@@ -107,7 +107,7 @@ a {
   width: 5rem;
   top: 50%;
   right: 50%;
-  transform: translate(50%, 75%);
+  transform: translate(50%, 55%);
 }
 
 @media (max-width: 768px) {
